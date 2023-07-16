@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name"></string>
     <string name="flashLight">SenterinAja App</string>
+
+
+    <string-array name="data_name">
+        <item>1. Install Aplikasi SenterinAja Pada HP Anda</item>
+        <item>2. Geser Kebawah Bohlam Untuk Mode On</item>
+        <item>3. Geser Keatas Bohlam Untuk Mode Off</item>
+        <item>4. Akses Menu Option Untuk Info Lanjut</item>
+        <item>5. Selamat Menggunakan SenterinAja App</item>
+    </string-array>
 </resources>

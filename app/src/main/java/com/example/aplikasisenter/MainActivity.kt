@@ -113,6 +113,10 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this@MainActivity, TentangActivity::class.java)
                 startActivity(intent)
             }
+            android.R.id.home -> {
+                finish() // Menutup aktivitas saat ini dan kembali ke halaman sebelumnya
+                true
+            }
 
         }
         return super.onOptionsItemSelected(item)
